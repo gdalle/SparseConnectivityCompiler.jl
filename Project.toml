@@ -1,0 +1,17 @@
+name = "SparseConnectivityCompiler"
+uuid = "f5fb7453-04b3-4bcd-82b8-eada6e37a5a2"
+authors = ["Guillaume Dalle"]
+version = "0.1.0"
+
+[deps]
+MistyClosures = "dbe65cb8-6be2-42dd-bbc5-4196aaced4f4"
+
+[compat]
+MistyClosures = "2.0.0"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test"]
